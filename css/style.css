@@ -1,0 +1,72 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }  
+    body{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(#f7ff00, #db36a4);
+    }
+    .sidemenu{
+        height: 100%;
+        width: 250px;
+        position: fixed;
+        left: 0;
+        background: linear-gradient(to right, #8e2de2, #4a00e0);
+        
+      }
+      .sidemenu header{
+          font-family: "Century Gothic";
+          font-size: 20px;
+          padding: 20px;
+          color: ghostwhite;
+          background-color: darkblue;
+          text-align: center;
+      }
+      .sidemenu ul{
+          padding: 0%;
+          list-style: none;
+      }
+      .sidemenu ul li a{
+          text-decoration: none;
+          color: ghostwhite;
+          display: block;
+          height: 50px;
+          font-size: 20px;
+          padding-top: 40px;
+          padding-left: 20px;
+          padding-bottom: 20px;
+          border-bottom: solid 5px #f7ff00;
+      }
+      .sidemenu ul li:hover a{
+          font-size: 25px;
+          font-weight: bold;
+
+      }
+      .content{
+          margin-left:250px ;
+          margin-right: 0%;
+      }
+      .content h1{
+          font-size: 50px;
+          font-family:cursive;
+          text-align: center;
+                   
+      }
+      .content img{
+          width: 300px;
+          height: 300px;
+          border-radius: 360px;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+      }
+      .content p{
+          text-align: justify;
+          padding-left: 20px;
+          padding-right: 20px;
+          font-size: 20px;
+          font-weight: bold;
+          text-indent: 30px;
+      }
+
+     
