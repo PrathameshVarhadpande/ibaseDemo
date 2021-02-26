@@ -1,2 +1,0 @@
-# ibaseDemo
-Demo purpose repo
